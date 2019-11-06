@@ -3,7 +3,7 @@ macro(SetupPython)
 
     # http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=677598
     # Acceptable versions of Python
-    set(Python_ADDITIONAL_VERSIONS "2.7")
+    set(Python_ADDITIONAL_VERSIONS "3.6")
 
     # For building on OS X
     if(${CMAKE_SYSTEM_NAME} MATCHES "Darwin" AND NOT BUILD_WITH_CONDA)
